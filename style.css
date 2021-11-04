@@ -1,0 +1,19 @@
+.heading{
+    width: 100%;
+    margin: 0px;
+}
+
+#object_input{
+    margin-top: 40px;
+    width: 20%;
+}
+
+#start{
+    background-color: lightgreen;
+    width: 7%;
+}
+
+canvas{
+    border-radius: 1px solid white;
+    box-shadow: wheat;
+}

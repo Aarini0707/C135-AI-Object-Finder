@@ -1,0 +1,30 @@
+<html>
+<head>
+
+	<title>AI Object Finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="background.jpg">
+    <center>
+        <h3 class="btn btn-danger heading">AI OBJECT FINDER
+            <br>
+            <span>Type the item you want the camera to that you showed, and then click on "Sart". If the item is there on the camera then a tag will show that item is found, or else it will say object not found.</span>
+        </h3>
+        <br>
+        <input id="object_input" placeholder="Type your object here✋🏻"> 
+        <br><br><br>
+        <button id="start" onclick="start()">START</button>
+        <br><br>
+        <h3 class="btn btn-success" id="status"></h3>
+    </center>
+</body>
